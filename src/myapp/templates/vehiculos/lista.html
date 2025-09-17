@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head><title>Vehiculos</title></head>
+<body>
+  <h1>Listado de Vehiculos</h1>
+  <a href="{% url 'crear_vehiculo' %}">➕ Nuevo Vehiculo</a>
+  <ul>
+    {% for vehiculo in vehiculos %}
+      <li>
+        {{ vehiculo.marca }} - {{ vehiculo.modelo }} {{ vehiculo.año }} 
+      </li>
+    {% empty %}
+      <li>No hay vehiculos registradas.</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
