@@ -4,7 +4,7 @@ Este proyecto es una aplicación web sencilla desarrollada en **Django** que per
 
 
 ## 🎥 Demostración en video
-👉 [Ver el funcionamiento en YouTube](https://www.youtube.com/shorts/rKiPkd3eoNc)
+👉 [Ver el funcionamiento en YouTube](https://www.youtube.com/shorts/b3UVcdW_jfk)
 
 
 
